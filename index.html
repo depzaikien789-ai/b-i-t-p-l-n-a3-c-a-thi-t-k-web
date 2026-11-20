@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio học tập của Nguyễn Trung Kiên - sinh viên Công nghệ thông tin.">
+  <meta name="theme-color" content="#101d3a">
+  <title>Nguyễn Trung Kiên | Portfolio CNTT - A3</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Điều hướng chính">
+      <a class="brand" href="#home" aria-label="Trang chủ">K<span>.</span></a>
+      <button class="menu-toggle" aria-label="Mở menu" aria-expanded="false" aria-controls="nav-links">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">Giới thiệu</a></li><li><a href="#skills">Kỹ năng</a></li>
+        <li><a href="#projects">Sản phẩm</a></li><li><a href="#a3">Hồ sơ A3</a></li>
+        <li><a href="#testing">Kiểm thử</a></li><li><a class="nav-cta" href="#contact">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> PORTFOLIO SINH VIÊN CNTT · FIT4014 A3</p>
+          <h1>Xin chào, mình là<br><span>Nguyễn Trung Kiên.</span></h1>
+          <p class="hero-lead">Mình đang học Công nghệ thông tin, yêu thích xây dựng website và tìm hiểu quy trình biến ý tưởng thành sản phẩm có thể sử dụng, kiểm thử và bàn giao.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Khám phá sản phẩm <span>↗</span></a>
+            <a class="button button-ghost" href="#a3">Xem hồ sơ A3</a>
+          </div>
+          <div class="hero-meta">
+            <div><strong>HTML5</strong><small>Cấu trúc nội dung</small></div>
+            <div><strong>CSS3</strong><small>Giao diện responsive</small></div>
+            <div><strong>GitHub</strong><small>Quản lý & triển khai</small></div>
+          </div>
+        </div>
+        <div class="hero-visual reveal delay-2">
+          <div class="hero-image-wrap"><img src="assets/hero-workspace.png" alt="Minh họa không gian lập trình với laptop, mã nguồn và biểu tượng công nghệ"></div>
+          <div class="floating-chip chip-one"><span>⌘</span><b>Code</b><small>Build with purpose</small></div>
+          <div class="floating-chip chip-two"><span>↗</span><b>Deploy</b><small>Share your work</small></div>
+          <div class="hero-orbit"></div>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#about">CUỘN ĐỂ KHÁM PHÁ <span>↓</span></a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">01 / GIỚI THIỆU</p><h2>Một chút về <span>mình</span></h2><p>Portfolio học tập – ghi lại quá trình học, thực hành và cải thiện sản phẩm.</p></div>
+        <div class="about-grid">
+          <article class="about-card profile-card reveal">
+            <div class="avatar">NK<span>+</span></div><h3>Nguyễn Trung Kiên</h3><p class="muted">Sinh viên Công nghệ thông tin</p>
+            <div class="profile-line"><span>Định hướng</span><b>Phát triển Web</b></div>
+            <div class="profile-line"><span>Trường</span><b>Đại học Đại Nam</b></div>
+            <div class="profile-line"><span>Email</span><b>depzaikien789@gmail.com</b></div>
+            <div class="profile-line"><span>GitHub</span><b>depzaikien789-ai</b></div>
+          </article>
+          <div class="about-text reveal delay-1">
+            <h3>Mình tin rằng cách học tốt nhất là bắt tay vào làm.</h3>
+            <p>Website này được xây dựng như một portfolio cá nhân dành cho người xem muốn tìm hiểu về mình, kỹ năng đang học và các sản phẩm thực hành. Nội dung được chia thành từng phần rõ ràng để người xem dễ tìm thông tin.</p>
+            <p>Mục tiêu của bài A3 là đi qua các bước: chọn chủ đề, viết yêu cầu, thiết kế có lý do, xây dựng bằng HTML/CSS, đưa mã nguồn lên GitHub, triển khai GitHub Pages, kiểm thử thực tế và chuẩn bị hồ sơ bàn giao.</p>
+            <div class="quote">“Học bằng cách thực hành, tiến bộ bằng cách kiểm tra và cải thiện.”</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">02 / NĂNG LỰC</p><h2>Kỹ năng & <span>công cụ</span></h2><p>Các kỹ năng đang học và áp dụng trong sản phẩm này.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><div class="skill-icon orange">&lt;/&gt;</div><h3>HTML5</h3><p>Tổ chức cấu trúc trang, semantic, liên kết, hình ảnh và biểu mẫu cơ bản.</p><span class="skill-tag">Đang thực hành</span></article>
+          <article class="skill-card reveal delay-1"><div class="skill-icon blue">✳</div><h3>CSS3</h3><p>Bố cục, màu sắc, hiệu ứng chuyển động, trạng thái focus và responsive.</p><span class="skill-tag">Đang thực hành</span></article>
+          <article class="skill-card reveal delay-2"><div class="skill-icon purple">⌘</div><h3>Git & GitHub</h3><p>Lưu trữ mã nguồn, quản lý phiên bản và phối hợp triển khai website.</p><span class="skill-tag">Đang học</span></article>
+          <article class="skill-card reveal delay-3"><div class="skill-icon green">✓</div><h3>Kiểm thử</h3><p>Kiểm tra liên kết, hiển thị, khả năng đọc và ghi nhận lỗi thực tế.</p><span class="skill-tag">Đang rèn luyện</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">03 / SẢN PHẨM</p><h2>Dự án <span>tiêu biểu</span></h2><p>Các hạng mục trong portfolio. Thay nội dung mẫu bằng sản phẩm và minh chứng thực tế trước khi nộp.</p></div>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-visual visual-one"><img src="assets/hero-workspace.png" alt="Không gian làm việc lập trình web"><span class="visual-label">01 / WEB DESIGN</span><div class="visual-caption">Personal portfolio</div></div>
+            <div class="project-info"><div class="project-top"><span>HTML5 · CSS3</span><span>2026</span></div><h3>Portfolio cá nhân</h3><p>Website giới thiệu bản thân, kỹ năng, sản phẩm học tập và hồ sơ bài tập lớn A3.</p><a href="#a3">Xem hồ sơ thực hiện <span>↗</span></a></div>
+          </article>
+          <article class="project-card reveal delay-1">
+            <div class="project-visual visual-two"><div class="wireframe-preview"><div class="wf-nav"></div><div class="wf-hero"></div><div class="wf-cards"><i></i><i></i><i></i></div></div><span class="visual-label">02 / UI STRUCTURE</span><div class="visual-caption">Responsive layout</div></div>
+            <div class="project-info"><div class="project-top"><span>WIREFRAME · RESPONSIVE</span><span>2026</span></div><h3>Bố cục trang portfolio</h3><p>Phân chia vùng nội dung, điều hướng và thẻ sản phẩm để người xem tìm thông tin nhanh.</p><a href="#design">Xem lý do thiết kế <span>↗</span></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section a3-section" id="a3">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">04 / CẤU TRÚC BÀI TẬP LỚN A3</p><h2>Từ ý tưởng <span>đến bàn giao</span></h2><p>Triển khai theo trình tự trong tài liệu hướng dẫn A3 FIT4014.</p></div>
+
+        <div class="a3-flow reveal">
+          <div class="flow-step"><span>01</span><b>Chọn chủ đề</b><small>Portfolio</small></div><i>→</i>
+          <div class="flow-step"><span>02</span><b>Viết yêu cầu</b><small>4 câu hỏi</small></div><i>→</i>
+          <div class="flow-step"><span>03</span><b>Thiết kế</b><small>Wireframe</small></div><i>→</i>
+          <div class="flow-step"><span>04</span><b>Xây dựng</b><small>HTML / CSS</small></div><i>→</i>
+          <div class="flow-step"><span>05</span><b>Kiểm thử</b><small>Ghi kết quả</small></div><i>→</i>
+          <div class="flow-step"><span>06</span><b>Nộp & demo</b><small>Bàn giao</small></div>
+        </div>
+
+        <div class="a3-grid">
+          <article class="a3-card reveal">
+            <p class="card-kicker">BƯỚC 1 · CHỌN CHỦ ĐỀ</p><h3>Website Portfolio cá nhân</h3>
+            <p>Chủ đề thuộc nhóm Portfolio, phù hợp để giới thiệu thông tin cá nhân, kỹ năng và sản phẩm học tập.</p>
+            <div class="topic-pills"><span>Portfolio</span><span>Website tĩnh</span><span>HTML5 / CSS3</span></div>
+          </article>
+          <article class="a3-card reveal delay-1">
+            <p class="card-kicker">BƯỚC 2 · TRƯỚC KHI CODE: 4 CÂU</p>
+            <div class="question-row"><b>1. Ai sẽ xem?</b><p>Giảng viên, bạn học và người muốn tìm hiểu hồ sơ học tập của sinh viên.</p></div>
+            <div class="question-row"><b>2. Họ cần làm gì?</b><p>Xem giới thiệu, kỹ năng, dự án, quy trình thực hiện và thông tin liên hệ.</p></div>
+            <div class="question-row"><b>3. Website có gì?</b><p>Trang đơn gồm điều hướng, giới thiệu, kỹ năng, sản phẩm, hồ sơ A3, kiểm thử và liên hệ.</p></div>
+            <div class="question-row"><b>4. Kiểm tra bằng cách nào?</b><p>Mở URL công khai, thử liên kết, menu, ảnh và kiểm tra trên màn hình rộng/hẹp.</p></div>
+          </article>
+        </div>
+
+        <article class="design-panel reveal" id="design">
+          <div class="design-copy"><p class="card-kicker">BƯỚC 3 · THIẾT KẾ CÓ LÝ DO</p><h3>Từ yêu cầu đến bố cục</h3><p>Trang dùng một thanh điều hướng nhất quán và các khu vực theo thứ tự thông tin. Màu navy tạo độ tương phản; màu cam dùng để nhấn hành động. Các thẻ nội dung giúp chia thông tin thành nhóm dễ quét.</p><ul><li>Desktop: hai cột ở phần giới thiệu, lưới thẻ cho kỹ năng và dự án.</li><li>Mobile: chuyển thành một cột, menu thu gọn và nút điều hướng dễ chạm.</li><li>Ảnh minh họa có văn bản thay thế; hiệu ứng không che nội dung.</li></ul></div>
+          <div class="wireframes">
+            <div class="wireframe"><b>DESKTOP</b><div class="wf-desktop"><i></i><div class="wf-d-hero"><span></span><span></span></div><div class="wf-d-cards"><i></i><i></i><i></i></div><div class="wf-d-footer"></div></div></div>
+            <div class="wireframe"><b>MOBILE</b><div class="wf-mobile"><i></i><div></div><div></div><div class="wf-m-cards"><i></i><i></i><i></i></div></div></div>
+          </div>
+        </article>
+
+        <article class="deploy-panel reveal">
+          <div><p class="card-kicker">BƯỚC 4 · TỪ MÃ NGUỒN ĐẾN URL CÔNG KHAI</p><h3>Quy trình triển khai</h3><p>HTML5/CSS3 → Repository Git → GitHub Pages → URL hoạt động. URL chỉ được xem là đã bàn giao sau khi mở thử thành công và đối chiếu đúng phiên bản mã nguồn.</p></div>
+          <div class="deploy-flow"><span>HTML5<br>CSS3</span><i>→</i><span>GitHub<br>Repository</span><i>→</i><span>GitHub<br>Pages</span><i>→</i><span>URL<br>công khai</span></div>
+          <a class="text-link" href="https://docs.github.com/en/pages" target="_blank" rel="noopener noreferrer">Tài liệu GitHub Pages ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section testing-section" id="testing">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">05 / THỬ THẬT, GHI THẬT</p><h2>Kiểm thử & <span>minh chứng</span></h2><p>Không tự đánh dấu đạt khi chưa chạy kiểm tra. Cập nhật kết quả và ảnh chụp sau khi thực hiện trên thiết bị thật.</p></div>
+        <div class="table-wrap reveal">
+          <table>
+            <thead><tr><th>Hạng mục</th><th>Cách kiểm tra</th><th>Kết quả hiện tại</th><th>Minh chứng cần có</th></tr></thead>
+            <tbody>
+              <tr><td>Điều hướng</td><td>Bấm từng liên kết menu và nút CTA</td><td><span class="status pending">Chưa kiểm tra</span></td><td>Ảnh menu và các phần đích</td></tr>
+              <tr><td>Hình ảnh</td><td>Kiểm tra ảnh hiển thị, không vỡ</td><td><span class="status pending">Chưa kiểm tra</span></td><td>Ảnh chụp khu vực hình ảnh</td></tr>
+              <tr><td>Responsive</td><td>Kiểm tra desktop và màn hình điện thoại</td><td><span class="status pending">Chưa kiểm tra</span></td><td>Ảnh desktop + mobile</td></tr>
+              <tr><td>Khả năng truy cập</td><td>Thử Tab, focus-visible và alt ảnh</td><td><span class="status pending">Chưa kiểm tra</span></td><td>Ảnh focus và ghi chú</td></tr>
+              <tr><td>URL công khai</td><td>Mở URL GitHub Pages ở cửa sổ mới</td><td><span class="status pending">Chưa triển khai</span></td><td>Ảnh URL hoạt động</td></tr>
+              <tr><td>Đối chiếu phiên bản</td><td>So nội dung URL với repository</td><td><span class="status pending">Chưa kiểm tra</span></td><td>Ảnh commit và trang đã xuất bản</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="note-box reveal"><b>Nguyên tắc:</b> Mong đợi → thao tác thử → kết quả thực tế → minh chứng. Nếu chưa thử, ghi “Chưa kiểm tra”; nếu có lỗi, ghi lỗi và cách sửa rồi kiểm tra lại.</div>
+      </div>
+    </section>
+
+    <section class="section rubric-section" id="rubric">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">06 / ĐỐI CHIẾU RUBRIC</p><h2>7 nhóm <span>tiêu chí A3</span></h2><p>Tỷ trọng theo bảng Rubric trong tài liệu hướng dẫn.</p></div>
+        <div class="rubric-list reveal">
+          <div class="rubric-row"><b>TC1</b><span>Yêu cầu và đánh giá phương án</span><strong>15%</strong><div><i style="width:15%"></i></div></div>
+          <div class="rubric-row"><b>TC2</b><span>Thiết kế và cấu trúc</span><strong>20%</strong><div><i style="width:20%"></i></div></div>
+          <div class="rubric-row"><b>TC3</b><span>Phát triển và triển khai</span><strong>25%</strong><div><i style="width:25%"></i></div></div>
+          <div class="rubric-row"><b>TC4</b><span>Đánh giá và kiểm thử</span><strong>20%</strong><div><i style="width:20%"></i></div></div>
+          <div class="rubric-row"><b>TC5</b><span>Báo cáo và bàn giao</span><strong>10%</strong><div><i style="width:10%"></i></div></div>
+          <div class="rubric-row"><b>TC6</b><span>Phản biện và demo</span><strong>5%</strong><div><i style="width:5%"></i></div></div>
+          <div class="rubric-row"><b>TC7</b><span>Quy cách và khai báo</span><strong>5%</strong><div><i style="width:5%"></i></div></div>
+        </div>
+        <p class="rubric-footnote">Tổng trọng số: 100%. Cần đối chiếu tiêu chí con a/b trong BM13 theo yêu cầu giảng viên.</p>
+      </div>
+    </section>
+
+    <section class="section handover-section" id="handover">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">07 / TRƯỚC KHI NỘP A3</p><h2>Checklist <span>bàn giao</span></h2><p>Danh sách chuẩn bị theo trang “Trước khi nộp A3” trong tài liệu hướng dẫn.</p></div>
+        <div class="handover-grid">
+          <div class="handover-card reveal"><span>01</span><div><h3>Website + URL</h3><p>Trang web mở được bằng liên kết công khai.</p></div></div>
+          <div class="handover-card reveal delay-1"><span>02</span><div><h3>Repository + phiên bản</h3><p>Mã nguồn được lưu trong GitHub, có lịch sử cập nhật.</p></div></div>
+          <div class="handover-card reveal delay-2"><span>03</span><div><h3>Báo cáo + README + AI_LOG</h3><p>Hồ sơ mô tả sản phẩm, cách chạy và khai báo sử dụng AI.</p></div></div>
+          <div class="handover-card reveal delay-3"><span>04</span><div><h3>Minh chứng + demo</h3><p>Ảnh kiểm thử và video trình bày sản phẩm thực tế.</p></div></div>
+        </div>
+        <div class="submission-note"><b>Trước khi nộp:</b> Mở lại mọi liên kết; đối chiếu yêu cầu và nộp theo lịch, định dạng, hướng dẫn trên LMS.</div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-wrap">
+        <div class="reveal"><p class="eyebrow">08 / KẾT NỐI</p><h2>Cảm ơn bạn đã<br><span>ghé thăm portfolio.</span></h2><p class="contact-lead">Mình luôn sẵn sàng trao đổi về học tập, dự án và công nghệ web.</p></div>
+        <div class="contact-card reveal delay-1"><span class="contact-icon">✉</span><small>EMAIL</small><a href="mailto:depzaikien789@gmail.com">depzaikien789@gmail.com</a><div class="contact-divider"></div><small>GITHUB</small><a href="https://github.com/depzaikien789-ai" target="_blank" rel="noopener noreferrer">github.com/depzaikien789-ai ↗</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home">K<span>.</span></a><p>© 2026 Nguyễn Trung Kiên · FIT4014 Portfolio A3</p><a href="#home">Lên đầu trang ↑</a></div></footer>
+
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const links = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      const opened = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', String(opened));
+    });
+    links.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      links.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }));
+
+    const progress = document.querySelector('.reading-progress');
+    const updateProgress = () => {
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      progress.style.width = (max > 0 ? window.scrollY / max * 100 : 0) + '%';
+    };
+    window.addEventListener('scroll', updateProgress, {passive:true});
+    updateProgress();
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {threshold:0.12});
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
